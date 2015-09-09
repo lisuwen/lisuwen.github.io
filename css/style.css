@@ -392,6 +392,16 @@ img {
 	padding-bottom:60px;
 }
 
+
+/* Projects
+---------------------------------*/
+.projects-part{
+	background:url(../img/bg1.jpg) center center no-repeat;
+	background-size:cover;
+	padding:55px 0;
+	text-align:center;
+}
+
 /* Clients
 ---------------------------------*/
 .client-part{
