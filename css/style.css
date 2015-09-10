@@ -89,11 +89,19 @@ p{
 /* Header Styles
 ---------------------------------*/
 
-.header{
+/*.header{
 	text-align:center;
 	background:url(../img/pw_maze_black_2X.png) left top repeat;
 	padding:280px 0;
+}*/
+
+.header{
+	text-align:center;
+	background:url(../img/headerbg2.jpg) center top no-repeat;
+	padding:250px 0;
+
 }
+
 .logo{
 	width:130px;
 	margin:0 auto 35px;
@@ -591,7 +599,7 @@ border: 2px solid #fff;
 .team-leader ul li a.fa-twitter:hover{
 	color:#55acee;
 }
-.team-leader ul li a.fa-facebook:hover{
+.team-leader ul li a.fa-facebook:hover, .team-leader ul li a.fa-linkedin-square:hover{
 	color:#3b5998;
 }
 .team-leader ul li a.fa-pinterest:hover{
@@ -619,6 +627,32 @@ border: 2px solid #fff;
 	color:#fff;
 }
 
+/* news article
+---------------------------------------*/
+
+.newsArticle{
+	background:url(../img/bg2.png) top center no-repeat;
+	background-size:cover;
+	padding:60px 10px;
+	text-align:center;
+}
+
+a.newsLink{
+	font-size:13px;
+	color:white;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-decoration:none;
+}
+
+a.newsLink:link{
+	color:white;
+	text-decoration:none;
+}
+
+a.newsLink:hover{
+	color:#66cc66;
+	text-decoration:none;
+}
 
 /* Contact
 ---------------------------------*/
@@ -686,6 +720,12 @@ border: 2px solid #fff;
 }
 .facebook a:hover {
 	background: #3b5998;
+}
+.linkedin a:hover{
+	background: #007bb5;
+}
+.youtube a:hover{
+	background: #c4302b;
 }
 .pinterest a:hover {
 	background: #cb2026;
