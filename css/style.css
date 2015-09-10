@@ -399,7 +399,16 @@ img {
 	background:url(../img/bg1.jpg) center center no-repeat;
 	background-size:cover;
 	padding:55px 0;
-	text-align:center;
+	text-align:left;
+	color:white;
+}
+
+.projects-part h2{
+	text-align:left;
+}
+
+.projects-part h3{
+	color:white;
 }
 
 /* Clients
